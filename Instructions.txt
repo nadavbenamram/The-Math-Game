@@ -1,0 +1,67 @@
+Instructions:
+
+Game Description:
+
+The Challenging Math Game is a challenging game for single player with required to solve mathematics exercises by using two spaceships that moving on the screen.
+
+Objects:
+
+Big SpaceShip: The big spaceship's sign is '#' , its color is green and its size is 3 * 2.
+Control Keys: UP (w) DOWN (x) LEFT (a) RIGHT (d) STAY (s) ROTATE(z).
+
+###
+###
+
+Small SpaceShip: The small spaceship's sign is '@' , its color is red and its size is 3 * 1.
+Control Keys: UP (i) DOWN (m) LEFT (j) RIGHT (l) STAY (k) ROTATE(n).
+
+@@@
+
+Walls: The Wall's sign is '+', NO object can pass a wall.
+
+Numbers: The numbers that can solve the exercise will be show on the screen from the start of the level.
+sequance of digits on the X exel are one number.
+
+Artifacts: The Artifact's sign is '*', the size of them is unknown. There is gravity on the screen, artifacts can sit on the wall, number or spaceship, but they can't sit on the air.
+
+Exercise: The exercise is represent on the screen and circled by walls.
+
+Game Status: The exercise is represent on the screen and includes:
+number of lives, screen number, number of clock cycles.
+
+Duration of the game:
+Each level will start with 3 lives and 2 spaceships.
+The player needs to take the number/s that will solve the exercise with the spaceships and avoid falling artifacts.
+Any time you can press ESC for stopping the game and you will be transferred to the sub menu.
+
+The Goal:
+
+The player win when he solves all the exercises.
+The Player loses the game when he doesn't have any more lives.
+
+How can I lose a life?
+Each wrong answer will lose one life.
+If your spaceship was bombed by an artifact you will lose one life and the level will start again.
+
+Special Scenarios:
+
+- The spaceships can push the artifacts if the artifact's volume is smaller or equal to 2/3 of the spaceship's volume.
+If the spaceships are trying to push the artifact together, they can do it if artifact's volume is smaller or equal to 2/3 of the total spaceships volume. 
+
+- When artifact falls "free fall" and landing on number or spaceship, it will bomb them (the number will be vanished / the spaceship will be bombed so the player will lose life and the level will start again).
+
+- When artifact is placed on number or spaceship (not falling free fall) it will sit on them.
+
+- When artifact is falling on another artifact they will become one artifact that can't be separated.
+
+- When artifact is placed on moving spaceship, it will move with the spaceship to the sides and down unlimited and without disqualify the spaceship, but moving up is possible just if the artifact's volume can be pushed by this spaceship.
+
+- Spaceships can't to rotate with artifacts on them.
+
+- If spaceship or "free falling" artifact is crossing the resolution of the screen and there isn't a wall, it will move to the other side of the screen.
+
+- When the two spaceships are crashing they will stop untill one of them moves.
+
+
+
+ 
